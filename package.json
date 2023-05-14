@@ -1,0 +1,15 @@
+{
+  "name": "katsumi",
+  "version": "1.0.0",
+  "description": "A discord bot that can tell you jokes and memes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --watch index.js"
+  },
+  "author": "Arkaneel Roy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "eris": "^0.17.2"
+  }
+}
