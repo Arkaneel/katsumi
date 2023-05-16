@@ -2,91 +2,39 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Katsumi Bot</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fascinate&family=Mogra&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <main>
-      <div id="home">
-            <header class="header">
-      <nav class="navbar">
-        <div class="logo">
-          <h1>克己</h1>
-        </div>
-        <div class="nav">
-          <a href="#home">Home</a>
-          <a href="#commandpage">Commands</a>
-          <a href="#status">Status</a>
-          <a href="https://github.com/Arkaneel/katsumi">Source</a>
-        </div>
-      </nav>
-    </header>
-        <div class="pfp">
-        <img src="https://i.ibb.co/k0xC6tk/katsumi.jpg" />
-      </div>
-      <p>
-        <b>Katsumi(克己)</b> , A playful discord bot who can tell jokes and memes ❤️.
-      </p>
-      <br />
-      <button class="add"><a href="#">Invite</a></button>
-      &emsp;
-      <button class="add"><a href="#">Discord</a></button>
-      <br />
-      <br />
-      </div>
-     <hr />
-      <div id="commandpage">
-        <br />
-        <br />
-        <h1>Commands</h1>
-        <div class="command">
-          <p><span class="com">$help</span> = Gives you the command list.</p>
-        </div>
-        <div class="command">
-          <p><span class="com">$ping</span> = Pings Katsumi.</p>
-        </div>
-        <div class="command">
-          <p><span class="com">$joke</span> = Tells you a random joke.</p>
-        </div>
-        <div class="command">
-          <p><span class="com">$dad</span> = Tells you a dad joke.</p>
-        </div>
-        <div class="command">
-          <p><span class="com">$pun</span> = Tells you a pun joke.</p>
-        </div>
-        <div class="command">
-          <p><span class="com">$dark</span> = Tells you a dark joke.</p>
-        </div>
-        <div class="command">
-          <p><span class="com">$programming</span> = Tells you a devs joke.</p>
-        </div>
-        <div class="command">
-          <p><span class="com">$meme</span> = Gives you a meme.</p>
-        </div>
-      </div>
-      <div id="status">
-        <h1 class="st">Status</h1>
-        <iframe src="https://discord.bots.gg/bots/1107496247826317402" frameborder="0"  height="500px"></iframe>
-      </div>
-    </main>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Katsumi</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="brand">
+      <a class="b-img" href="#">克己</a>
+    </div>
+    <ul class="navlinks">
+      <li class="nav-item"><a href="https://github.com/Arkaneel/katsumi">Github</a></li>
+      <li class="nav-item"><a href="#" onclick="cmd()">Commands</a></li>
+    </ul>
+  </div>
+  <div class="section">
+    <h1>Katsumi(克己)</h1>
+    <img class="avatar" src="https://raw.githubusercontent.com/Arkaneel/katsumi/main/assets/katsumi.png" />
+  <p>
+    A playfull discord bot who can tell you jokes and show you memes ❤️.
+  </p>
+  <div class="btn-group">
+    <button class="btn"><a href="https://discord.com/api/oauth2/authorize?client_id=1107496247826317402&permissions=8&scope=bot%20applications.commands">Invite</a></button>
+    &emsp;
+    &emsp;
+    <button class="btn"><a href="https://discord.gg/JbnVzrVc2P">Discord</a></button>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  function cmd(){
+    alert('\nCreated with ❤️ by **Arkaneel Roy**\n\n**COMMANDS**\n\n$ping = Ping Katsumi.\n$joke = Katsumi generates a random joke.\n$dark = Katsumi generates a dark joke\n$dad = Katsumi generates a dad joke.\n$pun = Katsumi generates a pun.\n$programming = Katsumi generates a joke on programming.\n$meme = Katsumi generates a meme');
+  }
+</script>
+</body>
 </html>
