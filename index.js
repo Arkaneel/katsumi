@@ -84,7 +84,7 @@ katsumi.on('messageCreate', async (msg) => {
   }
   
   else if(msg.content === '$help'){
-    katsumi.createMessage(msg.channel.id,"\nCreated with ❤️ by **Arkaneel Roy**\n\n**COMMANDS**\n\n```$ping = Ping Katsumi.\n$joke = Katsumi generates a random joke.\n$dark = Katsumi generates a dark joke\n$dad = Katsumi generates a dad joke.\n$pun = Katsumi generates a pun.\n$programming = Katsumi generates a joke on programming.\n$meme = Katsumi generates a meme```");
+    katsumi.createMessage(msg.channel.id, "> **Welcome to Katsumi Help!** 💫\n\n> Created with ❤️ by **Arkaneel Roy**\n\n> **COMMANDS** 🤖\n\n> - `$ping`: Ping Katsumi.\n> - `$joke`: Katsumi generates a random joke.\n> - `$dark`: Katsumi generates a dark joke.\n> - `$dad`: Katsumi generates a dad joke.\n> - `$pun`: Katsumi generates a pun.\n> - `$programming`: Katsumi generates a joke on programming.\n> - `$meme`: Katsumi generates a meme.\n\n> Feel free to explore these commands and have some fun with Katsumi! 😄");
   }
 });
 
